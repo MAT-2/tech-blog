@@ -13,7 +13,7 @@ const loginForm = async (event) => {
     if (response.ok) {
       document.location.replace("/dashboard");
     } else {
-      alert(err);
+      alert("Please enter correct login criteria.");
     }
   }
 };
@@ -34,7 +34,10 @@ const signupForm = async (event) => {
     if (response.ok) {
       document.location.replace("/dashboard");
     } else {
-      alert(err);
+      alert("Please enter correct signup criteria.");
     }
   }
 };
+
+document.querySelector(".login-form").addEventListener("submit", loginForm);
+document.querySelector(".signup-form").addEventListener("submit", signupForm);

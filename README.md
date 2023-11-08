@@ -4,6 +4,7 @@ Module 14 - A project for creating a blog-site using full stack functionality.
 
 ## Installations
 
+- Bootstrap v.5.1: https://getbootstrap.com/docs/5.1/getting-started/introduction/
 - BCrypt: https://www.npmjs.com/package/bcrypt
 - Connect-Session-Sequelize: https://www.npmjs.com/package/connect-session-sequelize
 - DOTENV: https://www.npmjs.com/package/dotenv

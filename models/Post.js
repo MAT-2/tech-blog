@@ -5,7 +5,7 @@ class Post extends Model {}
 
 //JS representation of creating our table for the POSTS that will be created.
 
-Post.int(
+Post.init(
   {
     id: {
       type: DataTypes.INTEGER,

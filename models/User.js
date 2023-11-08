@@ -1,5 +1,6 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
+const bcrypt = require("bcrypt");
 
 class User extends Model {
   checkPassword(password) {
@@ -34,7 +35,7 @@ User.init(
       //10 refers to as salt rounds, how many times the password will be hashed to be complete.
       beforeCreate: async (newUserData) => {
         newUserData.password = await bcrypt.hash(newUserData.password, 8);
-        return updatedUserData;
+        return newUserData;
       },
       //Does it again when it updates.
       beforeUpdate: async (updatedUserData) => {

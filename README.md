@@ -2,6 +2,8 @@
 
 Module 14 - A project for creating a blog-site using full stack functionality.
 
+Website URL: https://mat-2.github.io/tech-blog/
+
 # Summary
 
 Building a website that uses a login feature and creating new posts within a tech blog was a lot of fun, yet challenging. The challenges that I faced was creating the login feature, as well as creating tech blog posts and showing them on the website.

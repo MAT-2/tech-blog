@@ -22,7 +22,8 @@ app.set("view engine", "handlebars");
 const sess = {
   secret: process.env.SECRET,
   cookie: {
-    maxAge: 200,
+    //Changed maxAge to 300000 to prevent site to logout.
+    maxAge: 300000,
     httpOnly: true,
     secure: false,
     sameSite: "strict",

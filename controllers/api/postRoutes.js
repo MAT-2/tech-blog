@@ -4,6 +4,7 @@ const auth = require("../../utils/auth");
 
 router.post("/", auth, async (req, res) => {
   try {
+    console.log("hello");
     const postNew = await Post.create({
       ...req.body,
       user_id: req.session.user_id,
@@ -13,3 +14,5 @@ router.post("/", auth, async (req, res) => {
     console.log(err);
   }
 });
+
+module.exports = router;

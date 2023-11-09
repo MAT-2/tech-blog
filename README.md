@@ -24,3 +24,10 @@ Building a website that uses a login feature and creating new posts within a tec
 ## License
 
 Refer to LICENSE
+
+## Screenshots
+![image](https://github.com/MAT-2/tech-blog/assets/98721159/87915334-9dca-4b4a-a9f6-92194dc47a01)
+![image](https://github.com/MAT-2/tech-blog/assets/98721159/7c84f624-2673-47a7-9d03-ef8778962a43)
+![image](https://github.com/MAT-2/tech-blog/assets/98721159/a464819c-0371-4466-ad41-8459e4cdf9a2)
+
+
